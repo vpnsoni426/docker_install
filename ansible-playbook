@@ -1,6 +1,6 @@
 ---
 
-- hosts: localhost
+- hosts: anshost
   become: true
   tasks:
   - name: Log into DockerHub
