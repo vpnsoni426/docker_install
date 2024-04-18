@@ -3,6 +3,7 @@ install doker ---> sudo apt install docker.io
 change permission in azure ubuntu --> useradd -G docker azureuser
 
 install docker compose ansible machine --> apt install docker docker-compose
+
 install python on ubuntu machine ==>apt install python3 python3-pip
 ===>apt-get install pip
 
