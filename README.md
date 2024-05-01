@@ -18,3 +18,6 @@ ansible -m ping ansi-host
 
 
 run playbook --> ansible-playbook app-igct.yml
+
+docker build image ---> docker build -t java-webapp-kuber .
+docker run --> docker run -d -p 8080:8080 java-webapp-kuber:latest
